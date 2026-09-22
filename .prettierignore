@@ -15,3 +15,6 @@ docs/vale-styles/**
 # Instead we rely on the contribution service to format these files
 # See: https://github.com/airbytehq/airbyte/blob/master/CONTRIBUTING.md#adding-a-new-connector
 airbyte-integrations/connectors/*/manifest.yaml
+
+# Ignore GitHub workflow files from prettier formatting
+.github/
